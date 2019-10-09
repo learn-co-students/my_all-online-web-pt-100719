@@ -12,6 +12,6 @@ def my_all?(collection)
   else
     true
   end
-  block_return_values
 end
 
+my_all?([1,2,3]) {|i| i < 3}
